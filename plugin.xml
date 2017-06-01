@@ -24,7 +24,7 @@
             </feature>
         </config-file>
         
-        <config-file target="AndroidManifest.xml" parent="application">
+        <config-file target="AndroidManifest.xml" parent="./application">
             <meta-data android:name="co.paystack.android.PublishableKey" android:value="pk_test_2dd94b59531c844a258773dc8b3d41c9591abeb7"/>
         </config-file>
 
