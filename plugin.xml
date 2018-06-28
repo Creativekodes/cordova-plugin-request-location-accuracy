@@ -32,17 +32,5 @@
 
         <framework src="com.google.android.gms:play-services-location:+" />
         
-        <config-file target="AndroidManifest.xml" parent="/manifest/application/activity">
-        <intent-filter>
-         <action android:name="android.intent.action.VIEW" />
-         <category android:name="android.intent.category.DEFAULT" />
-         <category android:name="android.intent.category.BROWSABLE" />
-         <data android:scheme="https"
-		      android:host="*mustard.ng"
-			  android:pathPattern=".*" />
-			  
-         </intent-filter>
-        </config-file>
-
     </platform>
 </plugin>
